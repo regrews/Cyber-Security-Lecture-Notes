@@ -30,5 +30,16 @@
  }
 
 print hesapla();
-
+echo "</br>";
+function saydir(){
+	static $sayi=0;
+	$sayi++;
+	echo $sayi;
+}
+	echo "<h1>1. çalıştırma</h1> </br>";
+	saydir();
+	echo "</br><h1>2. çalıştırma </h1></br>";
+	saydir();
+	echo "</br><h1>3. çalıştırma</h1> </br>";
+	saydir();
 ?>
