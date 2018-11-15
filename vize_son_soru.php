@@ -1,6 +1,6 @@
 <?php
 echo "<table border=1>";
-$ogrenciler = array("Ahamet","Talha","Memet");
+$ogrenciler = array("Ahmet","Talha","Memet");
 $notlar = array(10,20,30);
 echo("<table border=1>");
 for ($i=0; $i <3 ; $i++) { 
