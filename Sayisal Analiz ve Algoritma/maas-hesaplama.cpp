@@ -4,7 +4,7 @@ int main() {
 	int saat, ucret, maas;
 	printf("Isim, saat ve ucret bilgisi giriniz :");
 	scanf("%c %d %d",&isim, &saat, &ucret);
-	//Tek tek veri giriþi
+	//Tek tek veri giriÅŸi
 /*	printf("Saatlik ucret giriniz :"); 
 	scanf("%d",&ucret);
 	printf("Kac saat calistiginizi giriniz :");
