@@ -58,7 +58,7 @@ int main(){
 
 	//int dizi[5]={1,5,7,9,4};
 	
-	//diziye rastgele eleman üretmek
+	//diziye rastgele eleman Ã¼retmek
 	int array[30]={};
 	srand(time(NULL));
 		
