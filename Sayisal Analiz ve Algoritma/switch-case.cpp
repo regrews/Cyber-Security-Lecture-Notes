@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
 	int nn;
-	printf("Bir not deðeri giriniz: ");
+	printf("Bir not deÄ‘eri giriniz: ");
 	scanf("%d",&nn);
 	if(100>=nn && nn>=0)
 		{
