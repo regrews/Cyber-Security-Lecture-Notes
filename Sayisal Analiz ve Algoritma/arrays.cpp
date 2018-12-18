@@ -12,7 +12,7 @@ int main(){
 		printf("\n%d. eleman = %d",i+1,dizininKaresi[i]);
 	}
 	
-	//en büyük ve en kucuk elemaný bulma
+	//en bÃ¼yÃ¼k ve en kucuk elemanÃ½ bulma
 	int enBuyuk=dizi[0];
 	int enKucuk=dizi[0];
 	for(int i=0;i<10;i++){
@@ -27,11 +27,11 @@ int main(){
 	printf("en buyuk eleman =%d\n",enBuyuk);
 	printf("en kucuk eleman =%d\n",enKucuk);
 		
-	//tek eleman yazdýrma
+	//tek eleman yazdÃ½rma
 	printf("2. eleman = %d",dizi[1]);
 	
 
-	//dizinin tamamýný yazma 
+	//dizinin tamamÃ½nÃ½ yazma 
 		for(int i=0;i<5;i++){
 		printf("%d. eleman = %d",i+1,dizi[i]);
 	}
@@ -44,7 +44,7 @@ int main(){
 		for(int i=0;i<5;i++){
 		printf("\n%d. eleman = %d",i+1,dizi[i]);
 	}
-	//dizinin ortalamasý bulma
+	//dizinin ortalamasÃ½ bulma
 	int toplam=0;
 	for(int i=0;i<5;i++){
 		toplam += dizi[i];
