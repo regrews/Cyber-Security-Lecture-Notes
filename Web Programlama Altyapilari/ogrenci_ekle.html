@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Öğrenci Ekle</title>
+</head>
+<body>
+	<form method="POST" action="ogrenci_ekle.php">
+	<table>
+				
+				<tr>
+					<td>
+						<input type="text" name="name" placeholder="Adınız :"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" name="surname" placeholder="Soyadınız :"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" name="mail" placeholder="Mail Adresiniz"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Cinsiyet Seçiniz : 
+						Kadın :<input type="radio" name="cinsiyet" value="kadin" checked="" /> 
+						Erkek :<input type="radio" name="cinsiyet" value="erkek"  />
+					</td>
+					
+				</tr>
+				<tr>
+					<td>
+						<select name="dogum">
+									<option value="istanbul">İstanbul</option>
+									<option value="izmir">İzmir</option>
+									<option value="ankara">Ankara</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" name="telefon" maxlength="10" placeholder="telefon"/>
+					</td>
+				</tr>
+				
+			</table>
+			<input type="submit" value="Gönder" >
+			</form>
+</body>
+</html>
