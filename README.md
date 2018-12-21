@@ -1,2 +1,5 @@
 # Cyber-Security-Lecture-Notes
-Siber Güvenlik Bölümü Ders Notları
+İstanbul Bilgi Üniversitesi
+Siber Güvenlik Bölümü 
+1. Sınıf Güz Dönemi 
+Ders Notları
