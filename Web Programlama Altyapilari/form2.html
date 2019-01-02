@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>PHP'de POST Metodu</title>
+</head>
+<body>
+<form action="form2.php" method="post">
+	<input type="text" name="ad" placeholder="Adınız ve Soyadınız :">
+	<br>
+	<input type="text" name="mail" placeholder="E Posta Adresiniz :">
+	<br>
+	<select name="bolum">
+		<option value="bilgisayar">Bilgisayar</option>
+		<option value="motor">Motor</option>
+		<option value="elektrik">Elektrik</option>
+		<option value="elektronik">Elektronik</option>
+	</select>
+	<br>
+	Cinsiyetiniz <br>
+	Erkek :<input type="radio" name="cinsiyet" value="erkek">
+	Kadın :<input type="radio" name="cinsiyet" value="kadin">
+	<br>
+	Daha önce yurtdışına çıktınız mı? <input type="checkbox" name="ydisi" value="ydisi">
+	<br>
+	<input type="submit" value="Gönder" name="gonder">
+	<input type="reset" name="" value="Reset">
+</form>
+</body>
+</html>

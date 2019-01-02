@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>FORM 3 </title>
+</head>
+	<body>
+		<form name="form" method="POST" action="form3.php">
+			<table>
+					<tr>
+						<td><input type="text" maxlength="20" name="username" placeholder="Username:" size="18"></td>
+						<td><input type="password" maxlength="10" name="password" placeholder="Password:" size="18"></td>
+					</tr>
+					<tr>
+						<td>Cinsiyet Seçiniz : </td>
+						<td>Kadın :<input type="radio" name="cinsiyet" value="kadin" checked="" /> Erkek :<input type="radio" name="cinsiyet" value="erkek"  /></td>
+					</tr>
+					<tr>
+						<td colspan="2"><textarea rows="5" cols="50" name="comment" placeholder="Comment..." maxlength="50"></textarea></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<select name="language" multiple="2" size="4">
+								<option value="eng">İngilizce</option>
+								<option value="deu" selected="">Almanca</option>
+								<option value="esp">İspanyolca</option>
+								<option value="fr">Fransızca</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">Bildiğiniz Programlama Dilleri Seçiniz :</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="checkbox" name="vb" checked="">Visual Basic </input><br>
+							<input type="checkbox" name="csharp" >C# </input><br>
+							<input type="checkbox" name="python" >Python </input>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="file" name="dosya" /></td>
+					</tr>
+					<tr>
+						<td><input type="submit" value="Gönder" /></td>
+						<td><input type="reset" value="Temizle" /></td>
+					</tr>
+			</table>
+		</form>
+	</body>
+</html>
